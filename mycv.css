@@ -1,0 +1,42 @@
+.container {
+    display: grid;
+    grid-template-columns:
+        1fr 3fr 1fr;
+    grid-template-areas:
+    ".      header  .     "
+    ".      main    .    "
+    "footer footer footer";
+
+
+}
+
+body {
+    font-family: "Poppins", sans-serif ;
+    color: black;
+    background-color: #586144;
+}
+
+h2, h1{
+
+    color:#B61919;
+
+}
+
+#item-a {
+
+    grid-area: header;
+    background-color: #797B6E;
+}
+
+#item-b {
+
+    grid-area: main;
+    background-color: #DFBEAD
+}
+
+#item-c {
+
+    grid-area: footer;
+    background-color: #797B6E ;
+}
+
